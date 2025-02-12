@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  window.scrollTo(0, 0); // リロード時にトップに戻る
   const target = document.getElementById("sample");
 
   const observer = new IntersectionObserver((entries, observer) => {
